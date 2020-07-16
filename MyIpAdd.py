@@ -1,3 +1,8 @@
+#Bayu Ardhyanto
+#Python,Raid,Network,Ubuntu Project
+
+
+
 #Detect ip if it manual or DHCP
 # next todo
 #1. Ask config network? Yes No
