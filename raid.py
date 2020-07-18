@@ -16,9 +16,19 @@ while True:
     	#print(chr(27) + "[2J")
         clear()
         spaceline(1)
-        print ("SELECT RAID LEVEL.")
+        print ("===================")
+        print (" SELECT RAID LEVEL")
+        print ("===================")
         spaceline(2)
-        print ("Raid 0 (striping). Minimum drive = 2. Fault tolerance = none , read performance = high,  write performance = high ")
-        print ("")
+        print ("Raid 0 (Strip). Min Drive = 2.")
+        print ("Raid 1 (Mirror). Min Drive = 2.")
+        print ("Raid 4. NOT ACTIVATED")
+        print ("Raid 5 (Striping with distributed parity). Min Drive = 3")
+        print ("RAID 6. NOT ACTIVATED")
+        print ("Raid 10 (Strip + Mirror). Min Drive = 4")
+        spaceline(1)
         mydisklist()
+        spaceline(2)
+
+
         break

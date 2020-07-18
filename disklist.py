@@ -12,3 +12,4 @@ def mydisklist():
       bersih.append((str(x,'utf-8')[0:3]))
 #   print ("\033[1;33;40m" + "test" + "\n")
    print ( bersih )
+   print (str(len(bersih)) + " Disk detected.")
